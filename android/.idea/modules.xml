@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/yedigundediyet.iml" filepath="$PROJECT_DIR$/.idea/modules/yedigundediyet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/yedigundediyet.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/yedigundediyet.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1685337721/yedigundediyet.react-native-camera.iml" filepath="$PROJECT_DIR$/.idea/modules/1685337721/yedigundediyet.react-native-camera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2013544763/yedigundediyet.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-2013544763/yedigundediyet.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-445322830/yedigundediyet.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-445322830/yedigundediyet.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2102108773/yedigundediyet.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-2102108773/yedigundediyet.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2063600781/yedigundediyet.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-2063600781/yedigundediyet.react-native-screens.iml" />
+    </modules>
+  </component>
+</project>

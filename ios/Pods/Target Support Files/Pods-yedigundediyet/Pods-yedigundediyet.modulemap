@@ -1,0 +1,6 @@
+module Pods_yedigundediyet {
+  umbrella header "Pods-yedigundediyet-umbrella.h"
+
+  export *
+  module * { export * }
+}
