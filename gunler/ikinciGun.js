@@ -50,8 +50,41 @@ const IkinciHafta = ({ navigation }) => {
                         width="100%"
                         height={BANNER_H}
                         source={require('../resimler/iki.jpg')}
-
                     />
+                    <View style={{ flex: 3 }}>
+                        <ScrollView style={{ marginTop: 20, marginBottom: 30 }}
+                            horizontal={true}
+                            showsHorizontalScrollIndicator={false}>
+                            <TouchableOpacity onPress={() => navigation.navigate("Endeks")}>
+                                <Image style={{ width: 90, height: 90, borderRadius: 10, marginHorizontal: 10, borderColor: '#023e8a', borderWidth: 2 }} source={require('../resimler/dietHesap.jpg')} />
+                                <B><Text style={{ textAlign: 'center', color: '#012a4a', alignItems: 'center' }}>indeks H.</Text></B>
+                            </TouchableOpacity>
+                            <TouchableOpacity onPress={() => navigation.navigate("BirinciHafta")}>
+                                <Image style={{ width: 90, height: 90, marginHorizontal: 10, borderColor: 'pink', borderWidth: 2 }} source={require('../resimler/bir.jpg')} />
+                                <B><Text style={{ textAlign: 'center', color: '#e07a5f', alignItems: 'center' }}>1. Gün</Text></B>
+                            </TouchableOpacity>
+                            <TouchableOpacity onPress={() => navigation.navigate("UcuncuHafta")}>
+                                <Image style={{ width: 90, height: 90, marginHorizontal: 10, borderColor: 'pink', borderWidth: 2 }} source={require('../resimler/uc.jpg')} />
+                                <B><Text style={{ textAlign: 'center', color: '#e07a5f', alignItems: 'center' }}>3. Gün</Text></B>
+                            </TouchableOpacity>
+                            <TouchableOpacity onPress={() => navigation.navigate("DorduncuHafta")}>
+                                <Image style={{ width: 90, height: 90, marginHorizontal: 10, borderColor: 'pink', borderWidth: 2 }} source={require('../resimler/Dort.jpg')} />
+                                <B><Text style={{ textAlign: 'center', color: '#e07a5f', alignItems: 'center' }}>4. Gün</Text></B>
+                            </TouchableOpacity>
+                            <TouchableOpacity onPress={() => navigation.navigate("BesinciGun")}>
+                                <Image style={{ width: 90, height: 90, marginHorizontal: 10, borderColor: 'pink', borderWidth: 2 }} source={require('../resimler/bes.jpg')} />
+                                <B><Text style={{ textAlign: 'center', color: '#e07a5f', alignItems: 'center' }}>5. Gün</Text></B>
+                            </TouchableOpacity>
+                            <TouchableOpacity onPress={() => navigation.navigate("AltinciGun")}>
+                                <Image style={{ width: 90, height: 90, marginHorizontal: 10, borderColor: 'pink', borderWidth: 2 }} source={require('../resimler/alti.jpg')} />
+                                <B><Text style={{ textAlign: 'center', color: '#e07a5f', alignItems: 'center' }}>6. Gün</Text></B>
+                            </TouchableOpacity>
+                            <TouchableOpacity onPress={() => navigation.navigate("YedinciGun")}>
+                                <Image style={{ width: 90, height: 90, marginHorizontal: 10, borderColor: 'pink', borderWidth: 2 }} source={require('../resimler/yedi.jpg')} />
+                                <B><Text style={{ textAlign: 'center', color: '#e07a5f', alignItems: 'center' }}>7. Gün</Text></B>
+                            </TouchableOpacity>
+                        </ScrollView>
+                    </View>
                     <View style={styles.TextView}>
                         <Text style={styles.title}>
                             2. Gün Diyet Tarifi
@@ -66,7 +99,7 @@ const IkinciHafta = ({ navigation }) => {
                             5 adet zeytin:<B>40 kalori</B>{"\n"}
                             Domates, Salatalık: <B>25 kalori</B>{"\n"}{"\n"}
 
-                            <Text style={{ fontWeight: 'bold', color: "black", textDecorationLine: 'underline' }}>Ara Öğün</Text>{"\n"}
+                            <Text style={{ fontWeight: 'bold', color: "black", fontSize: 15, textDecorationLine: 'underline' }}>Ara Öğün</Text>{"\n"}
                             10 tane tuzsuz badem: <B>60 kalori</B>{"\n"}
                             1 kaşık kuru üzüm: <B>50 kalori</B>{"\n"}{"\n"}
 
@@ -74,7 +107,7 @@ const IkinciHafta = ({ navigation }) => {
                             2 tane etli biber dolması: <B>250 kalori</B>{"\n"}
                             1 kase kadar yoğurt: <B>120 kalori</B>{"\n"}{"\n"}
 
-                            <Text style={{ fontWeight: 'bold', color: "black", textDecorationLine: 'underline' }}>Ara Öğün</Text>{"\n"}
+                            <Text style={{ fontWeight: 'bold', color: "black", fontSize: 15, textDecorationLine: 'underline' }}>Ara Öğün</Text>{"\n"}
                             3 adet kuru kayısı: <B>54 kalori</B>{"\n"}
                             3 adet ceviz içi: <B>75 kalori</B>{"\n"}{"\n"}
 
@@ -85,7 +118,7 @@ const IkinciHafta = ({ navigation }) => {
                             Yağsız Salata (domates, salatalık, marul, soğan, nar ekşisi ya da limon): <B>40 kalori</B>{"\n"}
                             2 ince dilim ekmek (kepekli): <B>108 kalori</B>{"\n"}{"\n"}
 
-                            <Text style={{ fontWeight: 'bold', color: "black", textDecorationLine: 'underline' }}>Ara Öğün</Text>{"\n"}
+                            <Text style={{ fontWeight: 'bold', color: "black", fontSize: 15, textDecorationLine: 'underline' }}>Ara Öğün</Text>{"\n"}
                             1/2 bardak tarçınlı süt: <B>60 kalori</B>
                         </Text>
                         <View>

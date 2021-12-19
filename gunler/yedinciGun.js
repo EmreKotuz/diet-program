@@ -50,8 +50,41 @@ const YedinciGun = ({ navigation }) => {
                         width="100%"
                         height={BANNER_H}
                         source={require('../resimler/yedi.jpg')}
-
                     />
+                    <View style={{ flex: 3 }}>
+                        <ScrollView style={{ marginTop: 20, marginBottom: 30 }}
+                            horizontal={true}
+                            showsHorizontalScrollIndicator={false}>
+                            <TouchableOpacity onPress={() => navigation.navigate("Endeks")}>
+                                <Image style={{ width: 90, height: 90, borderRadius: 10, marginHorizontal: 10, borderColor: '#023e8a', borderWidth: 2 }} source={require('../resimler/dietHesap.jpg')} />
+                                <B><Text style={{ textAlign: 'center', color: '#012a4a', alignItems: 'center' }}>indeks H.</Text></B>
+                            </TouchableOpacity>
+                            <TouchableOpacity onPress={() => navigation.navigate("BirinciHafta")}>
+                                <Image style={{ width: 90, height: 90, marginHorizontal: 10, borderColor: 'pink', borderWidth: 2 }} source={require('../resimler/bir.jpg')} />
+                                <B><Text style={{ textAlign: 'center', color: '#e07a5f', alignItems: 'center' }}>1. Gün</Text></B>
+                            </TouchableOpacity>
+                            <TouchableOpacity onPress={() => navigation.navigate("IkinciHafta")}>
+                                <Image style={{ width: 90, height: 90, marginHorizontal: 10, borderColor: 'pink', borderWidth: 2 }} source={require('../resimler/iki.jpg')} />
+                                <B><Text style={{ textAlign: 'center', color: '#e07a5f', alignItems: 'center' }}>2. Gün</Text></B>
+                            </TouchableOpacity>
+                            <TouchableOpacity onPress={() => navigation.navigate("UcuncuHafta")}>
+                                <Image style={{ width: 90, height: 90, marginHorizontal: 10, borderColor: 'pink', borderWidth: 2 }} source={require('../resimler/uc.jpg')} />
+                                <B><Text style={{ textAlign: 'center', color: '#e07a5f', alignItems: 'center' }}>3. Gün</Text></B>
+                            </TouchableOpacity>
+                            <TouchableOpacity onPress={() => navigation.navigate("DorduncuHafta")}>
+                                <Image style={{ width: 90, height: 90, marginHorizontal: 10, borderColor: 'pink', borderWidth: 2 }} source={require('../resimler/Dort.jpg')} />
+                                <B><Text style={{ textAlign: 'center', color: '#e07a5f', alignItems: 'center' }}>4. Gün</Text></B>
+                            </TouchableOpacity>
+                            <TouchableOpacity onPress={() => navigation.navigate("BesinciGun")}>
+                                <Image style={{ width: 90, height: 90, marginHorizontal: 10, borderColor: 'pink', borderWidth: 2 }} source={require('../resimler/bes.jpg')} />
+                                <B><Text style={{ textAlign: 'center', color: '#e07a5f', alignItems: 'center' }}>5. Gün</Text></B>
+                            </TouchableOpacity>
+                            <TouchableOpacity onPress={() => navigation.navigate("AltinciGun")}>
+                                <Image style={{ width: 90, height: 90, marginHorizontal: 10, borderColor: 'pink', borderWidth: 2 }} source={require('../resimler/alti.jpg')} />
+                                <B><Text style={{ textAlign: 'center', color: '#e07a5f', alignItems: 'center' }}>6. Gün</Text></B>
+                            </TouchableOpacity>
+                        </ScrollView>
+                    </View>
                     <View style={styles.TextView}>
                         <Text style={styles.title}>
                             7. Gün Diyet Tarifi

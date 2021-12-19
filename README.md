@@ -1,2 +1,0 @@
-# diet-program
-diet program
